@@ -63,14 +63,14 @@
 	    		<div class="bottom_path" style="position:absolute;">
 	    		</div>
 	    		<div class="bottom_text2" style="position:absolute;">
-		    		Equal Housing Lender. Â© 2020 AmWest Funding Corp.<br>
+		    		Equal Housing Lender. © 2020 AmWest Funding Corp.<br>
 		    		Some products may not be available in all states. This is not a commitment to lend. Restrictions apply.
 	    		</div>
 	
 	    	</div>
     	
     	
-		<div id="accessibility" class="col-md-12 accessibility-section" >
+		<div id="accessibility" class="col-md-12 accessibility-section" style="width:1900px;">
 			<div style="left:46px; width:1805px;border: 1px solid #FFFFFF;opacity: 1;"></div>
             <div class="bottom_accessibility">
                 <table class="accessibility-container" role="presentation">
