@@ -17,7 +17,7 @@
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<script src="./js/jquery-3.4.1.js"></script>
 
-		<!-- <script src="./js/jsencrypt.min.js"></script> -->
+		<script src="./js/jsencrypt.min.js"></script>
 
 
 		<script type="text/javascript">
@@ -53,11 +53,22 @@
 				$("#my_name").show();
 				
 				
-				
-		
+	
 
 			}
-			
+
+			/*login form control part by billy kim */
+			function fnLoginform(val) {
+				if (val == 'enable') {
+					$("#loginForm").show();
+					$("#mask").show();
+				}
+				else if (val == 'disable') {
+					$("#loginForm").hide();
+					$("#mask").hide();
+				}
+			}
+
 			
 			 /* kimbc  start */
 			
@@ -144,7 +155,10 @@
 		  					});
 		  					
 		  					
-		  		
+		  					
+
+							//여러개의 데이타가 있을경우
+						
 							//$.each(result,function(key,value) {
 							
 								//console.log('key:'+key);
@@ -354,6 +368,58 @@
 <!--hide after login-->
 	        <div class="bef_login_img" id="bef_login_img">
 	        </div>
+	        
+<!--login form start-->
+<div id="test" onclick="fnLoginform('enable')" style="left: 1761px; top: 33px; width: 120px; height: 52px;"></div>
+		<div id="loginForm" class="lb-container" style="width: 378px;top:90px;left:1510px;display:none;">
+			<div class="container-login no-padding">
+			    <h4>APPROVED USER LOGIN</h4>
+			    <div class="col-md-12">
+			        <div id="loginForm">
+						<form action="/Account/Login" class="form-horizontal" id="myForm" method="post" novalidate="novalidate" style="width: 324px;height: 308px;color:#152d53;"><input name="__RequestVerificationToken" type="hidden" value="Kejsl_OPjBEw7Jwo3HwrvtzbfX3BADLRkVaDS7DyKtgFFhLoaAghuG8-IeTX4Kh7aFzawmXQZaF9UUx4ew2xWOwcnl4mtwqW59EwsjGc4qc1">                <div class="form-group form-field">
+	                    <div class="control-label">Username</div>
+	                    <div class="col-xs-12">
+                        <input class="form-control" data-val="true" data-val-issafeparam="The field Username is invalid." data-val-length="The field Username must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The Username field is required." id="Username" name="Username" type="text" value="test.broker">
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="control-label">Password</div>
+                    <div class="col-xs-12">
+                        <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password">
+                    </div>
+                </div>
+                <div class="form-group form-field action-field">
+                    <div class="col-xs-7">
+                        <a class="ForgotPassword" href="/Account/Reset-Password" target="_top">Forgot password?</a>
+                        <div class="checkbox">
+                            <input checked="checked" id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
+                            <label for="RememberMe"><span><span></span></span> Remember Me</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-5 text-right">
+                        <button type="submit" id="btnLoginSubmit" class="btn btn-danger" style="line-height: 23px;padding: 5px 20px 5px 20px;">Login <span class="fa fa-arrow-circle-right"></span></button>
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="col-xs-12 text-center">
+                        <div class="form-errorMessage">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group form-field">
+                    <div class="col-xs-12">
+                        <a href="/Account/ApplyBroker" target="_top" class="btn btn-primary btn-request">Request Contact from AmWest</a>
+                    </div>
+                </div>
+</form>        </div>
+    </div>
+
+		</div>
+</div>
+<div id="mask" style="display:block none;z-index:550;" onclick="fnLoginform('disable')"></div>
+<!--login form end-->	        
+
 				 <div class="menu" id="top_menu">
 
 					<ul>
@@ -426,10 +492,10 @@
 	        <div class="account_menu" id="my_name" hidden="hidden">
 				<ul>
 			      	 <li class="active sub">
-                     	<a href="#">Brian Lee(Broker)</a>
+                     	<a href="#">Alanis Morissette Long Name (Broker)<br/>(AmWest Funding Corp)</a>
 							<ul>
 								<li class='sub' style="height:58px;">
-									 <a href="#" style="height:58px;line-height:1.5; padding-top:10px;"><b>Brian Lee (Broker)</b><br>Broker Manager</a>
+									 <a href="#" style="height:58px;line-height:1.5; padding-top:10px;"><b>Alanis Morissette Long Name (Broker)</b><br>Broker Manager</a>
 								</li>
 								<li class='sub'>
 									<a href="#"><b>My Account</b></a>
