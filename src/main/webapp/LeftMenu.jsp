@@ -77,55 +77,55 @@
 			    </div>		
 			
 				<ul>
-					<li class="home"><a href=""> <img src="/images/home.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Home</a></li>
-					<li class="home"><a href=""> <img src="/images/productFinder.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Product Finder</a></li>
-					<li class="home"><a href=""> <img src="/images/createLoan.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Create Loan</a></li>
-					<li class="home"><a href=""> <img src="/images/pipeline.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Pipeline</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_home.png" width="20px" align="bottom"/> &nbsp;&nbsp; Home</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_prdfinder.png" width="20px"  align="bottom"/> &nbsp;&nbsp; Product Finder</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_createloan.png" width="20px" align="bottom"/> &nbsp;&nbsp; Create Loan</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_pipeline.png" width="20px"  align="bottom"/> &nbsp;&nbsp; Pipeline</a></li>
 						
-					<li id="products" class="products"> <a href=""> <img src="/images/products.png" width="18px" height="18px"  align="bottom"/> 
-													<img id="productsPlusMinus" class="plus_minus"  src="/images/plus.png" width="14px" height="14px" /> &nbsp;&nbsp; Products</a>														
+					<li id="products" class="products"> <a href=""> <img src="/images/ico_products.png" width="20px"  align="bottom"/> 
+													<img id="productsPlusMinus" class="plus_minus"  src="/images/plus.png" width="12px" height="12px" /> &nbsp;&nbsp; Products</a>														
 						<ul>
-							<li><a href="">  <img src="/images/products.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Agency</a></li>
-							<li><a href="">  <img src="/images/products.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Government</a></li>
-							<li><a href="">  <img src="/images/products.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Portfolio</a></li>
-							<li><a href="">  <img src="/images/products.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Non-Conforming</a></li>
+							<li><a href="">  <img src="/images/ico_products.png" width="15px" align="bottom"/> &nbsp;&nbsp; Agency</a></li>
+							<li><a href="">  <img src="/images/ico_products.png" width="15px" align="bottom"/> &nbsp;&nbsp; Government</a></li>
+							<li><a href="">  <img src="/images/ico_products.png" width="15px" align="bottom"/> &nbsp;&nbsp; Portfolio</a></li>
+							<li><a href="">  <img src="/images/ico_products.png" width="15px" align="bottom"/> &nbsp;&nbsp; Non-Conforming</a></li>
 						</ul>	
 	     			</li>
 					
-					<li class="home"><a href=""> <img src="/images/rateSheets.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Rate Sheets</a></li>
-					<li class="home"><a href=""> <img src="/images/appraisal.png" width="18px" height="18px"  align="bottom"/> &nbsp;&nbsp; Appraisal</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_ratesheets.png" width="20px"  align="bottom"/> &nbsp;&nbsp; Rate Sheets</a></li>
+					<li class="home"><a href=""> <img src="/images/ico_apprisal.png" width="20px"  align="bottom"/> &nbsp;&nbsp; Appraisal</a></li>
 					
 					
 					
-					<li id="tools" class="tools"><a href=""><img src="/images/tools.png" width="18px" height="18px"  align="bottom"/>
-												    <img id="toolsPlusMinus" class="plus_minus"  src="/images/plus.png" width="14px" height="14px" />&nbsp;&nbsp; Tools</a>
+					<li id="tools" class="tools"><a href=""><img src="/images/ico_tools.png" width="20px"  align="bottom"/>
+												    <img id="toolsPlusMinus" class="plus_minus"  src="/images/plus.png" width="12px" height="12px" />&nbsp;&nbsp; Tools</a>
 						<ul>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Forms</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Resources</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Trainings</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; TRID</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Lender Prepared Loan Estimate</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Submission Checklists</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Flyers</a></li>
-							<li><a href="">  <img src="/images/tools.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Approved Credit Vendors</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Forms</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Resources</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Trainings</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; TRID</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Lender Prepared Loan Estimate</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Submission Checklists</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Flyers</a></li>
+							<li><a href="">  <img src="/images/ico_tools.png" width="15px" align="bottom"/> &nbsp;&nbsp; Approved Credit Vendors</a></li>
 							
 						</ul>	
 	     			</li>
-	     			<li id="announcement" class="announcement"><a href=""> <img src="/images/announcement.png" width="18px" height="18px"  align="bottom"/> 
-	     											<img id="announcementPlusMinus" class="plus_minus"  src="/images/plus.png" width="14px" height="14px" />&nbsp;&nbsp; Announcement</a>
+	     			<li id="announcement" class="announcement"><a href=""> <img src="/images/ico_announcement.png" width="20px"  align="bottom"/> 
+	     											<img id="announcementPlusMinus" class="plus_minus"  src="/images/plus.png" width="12px" height="12px" />&nbsp;&nbsp; Announcement</a>
 						<ul>
-							<li><a href="">  <img src="/images/announcement.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Announcement</a></li>
-							<li><a href="">  <img src="/images/announcement.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Important Dates</a></li>
-							<li><a href="">  <img src="/images/announcement.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Disaster Bulletins</a></li>
+							<li><a href="">  <img src="/images/ico_announcement.png" width="15px"  align="bottom"/> &nbsp;&nbsp; Announcement</a></li>
+							<li><a href="">  <img src="/images/ico_announcement.png" width="15px"  align="bottom"/> &nbsp;&nbsp; Important Dates</a></li>
+							<li><a href="">  <img src="/images/ico_announcement.png" width="15px"  align="bottom"/> &nbsp;&nbsp; Disaster Bulletins</a></li>
 						</ul>
 	     			</li>
-	     			<li id="manageAccounts" class="products"><a href=""> <img src="/images/manageAccounts.png" width="18px" height="18px"  align="bottom"/> 
-	     											<img id="manageAccountsPlusMinus" class="plus_minus"  src="/images/plus.png" width="14px" height="14px" />&nbsp;&nbsp; Manage Accounts</a>
+	     			<li id="manageAccounts" class="products"><a href=""> <img src="/images/ico_mngaccount.png" width="20px"  align="bottom"/> 
+	     											<img id="manageAccountsPlusMinus" class="plus_minus"  src="/images/plus.png" width="12px" height="12px" />&nbsp;&nbsp; Manage Accounts</a>
 						<ul>
-							<li><a href="">  <img src="/images/manageAccounts.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Set Start Page</a></li>
-							<li><a href="">  <img src="/images/manageAccounts.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Personal Info</a></li>
-							<li><a href="">  <img src="/images/manageAccounts.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; My Bookmarks</a></li>
-							<li><a href="">  <img src="/images/manageAccounts.png" width="15px" height="15px"  align="bottom"/> &nbsp;&nbsp; Request User Create</a></li>
+							<li><a href="">  <img src="/images/ico_mngaccount.png" width="15px" align="bottom"/> &nbsp;&nbsp; Set Start Page</a></li>
+							<li><a href="">  <img src="/images/ico_mngaccount.png" width="15px" align="bottom"/> &nbsp;&nbsp; Personal Info</a></li>
+							<li><a href="">  <img src="/images/ico_mngaccount.png" width="15px" align="bottom"/> &nbsp;&nbsp; My Bookmarks</a></li>
+							<li><a href="">  <img src="/images/ico_mngaccount.png" width="15px" align="bottom"/> &nbsp;&nbsp; Request User Create</a></li>
 						</ul>
 	     			</li>
 				</ul>

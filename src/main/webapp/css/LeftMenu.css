@@ -1,6 +1,6 @@
 /*  Left Menu CSS  */      
 /*  Billy Kim 2020-03-27    */
-
+/* 2020-04-08 left menu style */
 
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { border: 0; font-size: 100%; font: Open Sans; vertical-align: baseline; padding: 0; }
@@ -37,7 +37,7 @@ table{ border-collapse: collapse; border-spacing: 0; }
 
 body {
 	background: #fff;
-	font: 13px tahoma, arial, sans-serif;
+/*	font: 13px tahoma, arial, sans-serif;*/
 }
 
 /* .left-container { display: table; position: left; width: 340px; height: 1080px; margin-left: auto; margin-right: auto;  }
@@ -60,14 +60,17 @@ nav {
 }
 nav ul li a {
 
-	font: 16px tahoma, arial, sans-serif;
-	font-weight:bold;
+/*	font: 16px tahoma, arial, sans-serif;*/
+/*	font-weight:bold;*/
+	font: 20px/27px Open Sans;
+	font-weight: 600;
+	letter-spacing: 0px;
 	display: block;
-	height: 48px;
-	line-height: 50px;
+ 	height: 48px;
+	line-height: 48px; 
 	padding-left: 20px;
 	text-decoration: none;
-	color: #d9ddea;
+	color: #FFFFFF;
 	
 		
 }
@@ -122,14 +125,15 @@ nav ul li a {
 }
 .products ul li a { 
 	background-position: 0 -80px;
-	font: 14px tahoma, arial, sans-serif;
-	font-weight:bold;	
+/*	font: 14px tahoma, arial, sans-serif;*/
+/*	font-weight:bold;*/
+	font: Bold 17px/23px Open Sans;
 	display: block;
 	height: 28px;
-	line-height: 10px;
+	line-height: 15px;
 	padding-left: 50px;
 	text-decoration: none;
-	color: #d9ddea;	
+	color: #FFFFFF;	
 }
 .products ul li a:hover {
 	background-position: -200px -80px;
@@ -166,14 +170,21 @@ nav ul li a {
 }
 .tools ul li a { 
 	background-position: 0 -80px;
-	font: 14px tahoma, arial, sans-serif;
-	font-weight:bold;	
+/*	font: 14px tahoma, arial, sans-serif;*/
+/* 	font-weight:bold; */
+	font: Bold 17px/23px Open Sans;	
+	font-weight:bold;
 	display: block;
 	height: 28px;
-	line-height: 10px;
+	line-height: 15px;
 	padding-left: 50px;
 	text-decoration: none;
-	color: #d9ddea;	
+	color: #FFFFFF;
+	width: 300px;
+	text-overflow: ellipsis;
+    overflow-x: hidden;
+    white-space: nowrap;
+		
 }
 .tools ul li a:hover {
 	background-position: -200px -80px;
@@ -205,14 +216,15 @@ nav ul li a {
 }
 .announcement ul li a { 
 	background-position: 0 -80px;
-	font: 14px tahoma, arial, sans-serif;
-	font-weight:bold;	
+/*	font: 14px tahoma, arial, sans-serif;
+	font-weight:bold; */
+	font: Bold 17px/23px Open Sans;
 	display: block;
 	height: 28px;
-	line-height: 10px;
+	line-height: 15px;
 	padding-left: 50px;
 	text-decoration: none;
-	color: #d9ddea;	
+	color: #FFFFFF;	
 }
 .announcement ul li a:hover {
 	background-position: -200px -80px;
@@ -280,11 +292,12 @@ nav ul li a {
 	left: 10px;
 	width: 275px;
 	height: 35px;
-	text-align: left;
-	font: 14px tahoma, arial, sans-serif;
+	text-align: center;
+/* 	font: 14px tahoma, arial, sans-serif; */
+	font: Normal 12px/17px Open Sans;
 	letter-spacing: 0;
 	/* color: #CCCCCC; */
-	opacity: 1;
+	opacity: 0.5;
 	margin-top: 7px;
 }
 

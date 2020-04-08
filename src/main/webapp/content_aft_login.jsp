@@ -39,8 +39,8 @@
 
 			.welcome_msg {
 			    top: 170px;
-			    left: 680px;
-			    width: 817px;
+			    left: 480px;
+			    width: 1217px;
 			    height: 44px;
 			    /* UI Properties */
 			    text-align: center;
@@ -144,7 +144,7 @@
   <div class="welcomeMain">
   
 	<div class="welcome_msg" >
-	Welcome Brian Lee. (AmWest Financial) 	</div>
+	Welcome Alanis Morissette Long Name. (AmWest Funding Corp) 	</div>
 	<div style="left:575px;top:285px;width:1028px; height:340px;">
 		 <div class="main_menu" id="main_menu" style="width:1028px;background-color:#FFFFFF;">
 		 <ul>
